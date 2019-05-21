@@ -74,6 +74,7 @@ export class AuthService {
             this.isLoggedIn = true;
           } else {
             this.isLoggedIn = false;
+
           }
         },
         error => {
