@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="user != undefined">
+    Welcome {{ user["first_name"]  }} {{ user["last_name"]  }}
+  </div>
+</ion-content>
